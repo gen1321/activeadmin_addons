@@ -1,7 +1,6 @@
 module ActiveAdminAddons
   module Rails
     class Engine < ::Rails::Engine
-      require "select2-rails"
       require "sass"
       begin
         require 'sassc-rails'
